@@ -1,0 +1,52 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eee;
+}
+
+.wrapper{/*to have something like a margin*/
+    margin:0 auto;/*auto takes the current spacing mutiplies by 2 and spaces on both sides*/     
+     width: 1000px;
+}
+
+.wrapper2{
+    margin:0 auto;/*auto takes the current spacing mutiplies by 2 and spaces on both sides*/     
+     width: 1200px;
+     background-color: rgb(250, 0, 0);
+}
+
+
+nav{
+    background-color: #fff;
+    width: 100%;
+    line-height: 100px;
+}
+
+
+
+ul li{
+       list-style: none;/*to get rid of bullet points*/
+       display: inline-block;/*to get all the list items in the same line*/
+       line-height: 100px;
+       padding: 0 50px;
+       
+    }
+
+ul li a{
+    color: #1e1e1e;
+    text-decoration: none;/*to get rid of underline under text*/
+     /*display: block;so that the area near the word can also lead us to the link*/
+     font-family: Georgia;
+     font-size: 20px;
+}
+
+
+
+
+ul li a:hover{
+      color: red;
+}
+
